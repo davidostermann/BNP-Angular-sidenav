@@ -1,0 +1,7 @@
+<mat-list>
+  <mat-list-item  *ngFor="let real of realService.list">
+    <!-- <mat-icon matListIcon>folder</mat-icon> -->
+    <h3 matLine> {{real.name}} </h3>
+    <img matListAvatar src="{{real.image}}" alt="...">
+  </mat-list-item>
+</mat-list>
